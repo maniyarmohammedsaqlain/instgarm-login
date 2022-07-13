@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: azure;
+}
+
+.div1{
+    background-color: white;
+    height: 24.8rem;
+    width: 21rem;
+    line-height: 2rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: silver;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 35%;
+}
+.sec3{
+    margin-left: 35%;
+    margin-top: -1rem;
+    width: 21rem;
+}
+.div2 input{
+    width: 15rem;
+    height: 2rem;
+    margin-left: 2.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    background-color: whitesmoke;
+    border-width: 0.5px;
+    outline: none;
+}
+.div2{
+    margin-top: 3rem;
+}
+.fbclass{
+    text-decoration: none;
+    padding-left: 4.5rem;
+}
+.div1 h1{
+    font-size:xx-large;
+    font-weight:900;
+    font-family: 'Crimson Text', serif;
+    padding-left: 7rem;
+    padding-top: 4rem;
+}
+.forget{
+    text-decoration: none;
+    padding-left: 7.5rem;
+    color: black;
+    font-size:small;
+}
+.button button{
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    font-size: larger;
+    background-color: #2196F3;
+    height: 2rem;
+    width: 15.7rem;
+    margin-left: 2.4rem;
+    margin-top: 0.5rem;
+    font-size: smaller;
+    font-family: 'Jost', sans-serif;
+}
+button:hover{
+    background-color: #2196F3;
+    cursor: pointer;
+}
+input:focus{
+    outline: none;
+}
+.hrdiv{
+    display: flex;
+}
+.logtext{
+    color: rgb(59, 89, 152);
+    font-family: 'Jost', sans-serif;
+}
+.fbicon{
+    color: rgb(59, 89, 152);
+    padding-right: 0.5rem;
+    margin-top: 2rem;
+
+}
+h4{
+    margin-left: 10rem;
+    margin-top: 1rem;
+    color: rgb(109, 106, 106);
+}
+.div3 h4{
+    background-color: white;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    border-color: silver
+}
+.div3{
+    margin-left: -10rem;
+    margin-bottom: 1rem;
+}
+.div3 a{
+    text-decoration: none;
+    color: #2196F3;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding-left: 0.5rem;
+}
+.div4 h4{
+    font-family: 'Merriweather Sans', sans-serif;
+    /* margin-left:      */
+    
+}
+@media only  screen and (max-width:600px) {
+    .div4 h4{
+        margin-left: 45%;
+    }
+    .div1{
+        margin-left: 21%;
+    }
+    .sec3{
+        margin-left: 21%;
+    }
+    .buttonsdown{
+        margin-left: 27%;
+        margin-top: 2%;
+    }
+    .mainsec{
+        margin-top: 0.5rem;
+    }
+}
+
+@media only  screen and (min-width:768px) {
+    .div4 h4{
+        margin-left: 52%;
+    }
+    .buttonsdown{
+        margin-left: 37.5%;
+        margin-top: 2%;
+    }
+    .mainsec{
+        margin-top: 0.5rem;
+    }
+}
+@media only  screen and (min-width:900px) {
+    .div4 h4{
+        margin-left: 44%;
+    }
+    .buttonsdown{
+        margin-left: 37.5%;
+        margin-top: 2%;
+    }
+    .mainsec{
+        margin-top: 2rem;
+    }
+}
+.appbutton{
+    background-color: black;
+    color: white;
+    border-style: none;
+    height: 2.5rem;
+    width: 8.4rem;
+    border-radius: 8px;
+    font-family: 'Jost', sans-serif;
+    font-size: large;
+}
+.playbutton{
+    background-color: black;
+    color: white;
+    border-style: none;
+    height: 2.5rem;
+    width: 8.4rem;
+    border-radius: 8px;
+    font-family: 'Jost', sans-serif;
+    font-size: large;
+}
+.buttonsdown button:hover{
+    background-color: black;
+}
